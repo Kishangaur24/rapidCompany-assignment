@@ -40,3 +40,30 @@
     background-color: rgb(7, 31, 75) ;
     color: white;
 }
+@media only screen and (max-width:850px){
+    .item{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .main{
+        height: 20rem;
+    }
+}
+@media only screen and (max-width:426px){
+    .main{
+        height: 40rem;
+    }
+    .list{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .list li{
+        width: 20rem;
+        height: 7rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: larger;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+}
