@@ -1,0 +1,56 @@
+.nav{
+    height: 3rem;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px rgb(202, 187, 187) solid;
+}
+.image{
+   padding-left: 5rem;
+}
+
+.ipsum{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+    padding-right: 5rem;
+ 
+}
+ li{
+    list-style: none;
+    cursor: pointer;
+   
+}
+.dropDown{
+    height: 15rem;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: .5rem;
+    position: absolute;
+    width: 100vw;
+    background-color: white;
+}
+.firstDropDown{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.ipsum h4{
+    border: 2px blue white;
+    padding: .7rem;
+}
+.Active{
+    color: blue;
+    border-bottom: 2px blue solid;
+}
+.dropmenu{
+    display: none;
+}
+
+
+.Accordian{
+    display: none;
+}

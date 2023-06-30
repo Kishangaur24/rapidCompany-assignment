@@ -1,0 +1,25 @@
+.body {
+    display: flex;
+    border: 1px rgb(0, 0, 0) solid;
+    padding: 1rem;
+    justify-content: space-between;
+    width: 100vw;
+    color: black;
+    background-color: white;
+  }
+  .main{
+    position: absolute;
+    margin-top: -8rem;
+  }
+  .options{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+  }
+  .options ul li{
+    /* border: 1px rgb(0, 0, 0) solid; */
+    list-style: none;
+    padding: 1rem;
+    color: black;
+  }
+  
