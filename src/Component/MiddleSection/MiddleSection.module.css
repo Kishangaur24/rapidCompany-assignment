@@ -1,0 +1,42 @@
+.main{
+    border: 2px solid black;
+    padding: 2rem;
+    height: 12rem;
+    
+}
+.text h1{
+
+    text-align: center;
+    color: rgb(7, 5, 44);
+     
+}
+.text h1 span{
+    font-weight:900;
+    font-size: 2rem;
+    width: max-content;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+
+}
+.list li{
+    display: flex;
+    gap: .5rem;
+    border: 2px solid rgb(7, 31, 75);
+    color: rgb(7, 31, 75);
+    font-weight: 700;
+    padding: 1rem;
+}
+.list li:hover{
+    background-color: rgb(7, 31, 75) ;
+    color: white;
+}
