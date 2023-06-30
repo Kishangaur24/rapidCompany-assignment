@@ -1,0 +1,98 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 23rem;
+}
+.box{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0rem 3rem 0rem 0rem;
+}
+.main div img{
+    height: 19rem;
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+
+}
+.list li{
+    display: flex;
+    gap: 2rem;
+    color: rgb(7, 31, 75);
+    font-weight: 700;
+    padding: .5rem;
+}
+.list li:hover{
+    background-color: rgb(7, 31, 75) ;
+    color: white;
+}
+.infobox{
+    height: 8rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.infobox h6{
+    text-decoration: underline;
+    color: blue;
+}
+.infobox h2{
+    color: blue;
+}
+.img{
+    height: 11rem;
+    width: 34rem;
+    background-image: url("https://img.freepik.com/premium-photo/beautiful-mountain-range-reflects-tranquil-water-generative-ai_188544-9117.jpg?w=2000");
+   background-size: cover;
+}
+.bottoninfobox{
+    display: flex;
+    width: 34rem;
+    justify-content: space-evenly;
+    height: 4rem;
+    align-items: center;
+}
+.bottoninfobox button{
+     font-size: 1rem;
+     padding: .5rem;
+     border-radius: 15px;
+     border: none;
+     background-color: rgb(11, 11, 73);
+     color: white;
+}
+.bottoninfobox h6{
+    text-decoration: underline;
+    color: blue
+}
+@media only screen and (max-width:1170px){
+    html{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width:776px){
+    .main{
+        flex-direction: column;
+        margin-top: 14rem;
+    }
+    .box1{
+        padding-right: 0rem;
+    }
+}
